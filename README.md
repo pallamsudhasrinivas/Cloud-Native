@@ -25,10 +25,10 @@ Following are the pillars of Cloud Native
 
 4.	Containers: Containers are a great enabler of cloud native software. Containerizing a microservice is simple and straightforward. The code, dependencies, runtime are packaged into binary called as container image. Containers provides portability and guarantee consistency across environments. By encapsulating everything into a single package, we are isolating the code and its dependencies from the underling infrastructure. To manage these containers, we have special software called container orchestrators 
 
-5.	Backing Services: Cloud Native systems depends upon many different ancillary resources such as data stores, message brokers, monitoring and identity services e.t.c these services are called backing services. 
+5.	Backing Services: Cloud Native systems depends upon many different ancillary resources such as data stores, message brokers, monitoring and identity services e.t.c these services are called backing services. The best practice is to treat a backing service as attached resource, dynamically bound to a microservice with configuration information stored in external configuration.
 
+6.	Automation: With infrastructure as code, we can automate the platform provisioning and application deployments. We add versioning of code base, testing to DevOps practices. Our infrastructure and deployments are automated consistent and repeatable. We can use same scripts over and over without any side effects, only the updated resources are affected. 
 
-6.	Automation
 
 
 Reference: https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/definition
